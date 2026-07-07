@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects by Krishiv Routhu, including a forensics and video editing project space." />
+  <title>Projects | Krishiv</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="projects">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Krishiv home"><span class="brand-mark">K</span><span>Krishiv</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="passions.html" data-nav="passions">Passions</a>
+      <a href="projects.html" data-nav="projects">Projects</a>
+      <a href="deep-dives.html" data-nav="deep-dives">Deep Dives</a>
+      <a href="service.html" data-nav="service">Service</a>
+    </nav>
+  </header>
+
+  <main class="page-pad page-shell">
+    <section class="page-title">
+      <p class="kicker">Builds and creative work</p>
+      <h1>Projects</h1>
+      <p>This page is where I can show work that combines what I enjoy learning with things I create.</p>
+    </section>
+
+    <section class="filter-row" aria-label="Project categories">
+      <span>Forensics</span><span>Video Editing</span><span>Storytelling</span><span>More Soon</span>
+    </section>
+
+    <section class="section-list">
+      <h2>Featured project</h2>
+      <div class="project-list">
+        <article class="wide-card passion-video-card">
+          <div class="card-number">P01</div>
+          <div>
+            <p class="card-label">Video · Forensics</p>
+            <h3>Forensics Storytelling Video</h3>
+            <p>A video project space for combining mystery-solving, editing, and creative storytelling.</p>
+            <div class="tags"><span>Forensics</span><span>Video Editing</span><span>Mystery</span><span>Storytelling</span></div>
+
+            <div class="project-video-shell">
+            <div class="video-card soft-card embedded-video">
+              <div class="video-frame">
+                <video controls preload="metadata" poster="assets/forensics-poster.svg" data-fallback="projectVideoFallback">
+                  <source src="assets/forensics-video-project.mp4" type="video/mp4" />
+                </video>
+                <div class="video-fallback" id="projectVideoFallback">
+                  <strong>Project video goes here</strong>
+                  <span>Upload your video as <code>assets/forensics-video-project.mp4</code>.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-coming-soon">
+              <h2>More coming soon!</h2>
+              <p>A blend of forensics and video editing. This project area will grow as I add more creative work.</p>
+            </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Krishiv</p><p><a href="mailto:routhukrishiv@gmail.com">routhukrishiv@gmail.com</a></p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
