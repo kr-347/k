@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" role="img" aria-labelledby="title desc">
+  <title id="title">Forensics video poster</title>
+  <desc id="desc">Abstract forensics video placeholder with fingerprint and evidence cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f2ea"/>
+      <stop offset="1" stop-color="#ded4ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a57ff"/>
+      <stop offset="1" stop-color="#ff7d54"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#131313" stroke-width="1">
+    <path d="M0 80h1280M0 160h1280M0 240h1280M0 320h1280M0 400h1280M0 480h1280M0 560h1280M0 640h1280M0 720h1280"/>
+    <path d="M80 0v800M160 0v800M240 0v800M320 0v800M400 0v800M480 0v800M560 0v800M640 0v800M720 0v800M800 0v800M880 0v800M960 0v800M1040 0v800M1120 0v800M1200 0v800"/>
+  </g>
+  <rect x="150" y="150" width="360" height="250" rx="34" fill="#fffaf2" stroke="#131313" stroke-opacity="0.14"/>
+  <rect x="770" y="390" width="360" height="250" rx="34" fill="#fffaf2" stroke="#131313" stroke-opacity="0.14"/>
+  <circle cx="370" cy="510" r="128" fill="url(#accent)" opacity="0.18"/>
+  <path d="M606 265c87 0 157 70 157 157 0 70-45 129-108 150" fill="none" stroke="#131313" stroke-width="22" stroke-linecap="round" opacity="0.82"/>
+  <path d="M606 331c50 0 91 41 91 91 0 39-24 72-58 85" fill="none" stroke="#131313" stroke-width="18" stroke-linecap="round" opacity="0.72"/>
+  <path d="M606 397c14 0 25 11 25 25 0 23-9 55-37 80" fill="none" stroke="#131313" stroke-width="16" stroke-linecap="round" opacity="0.62"/>
+  <text x="640" y="705" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="900" fill="#131313">Forensics Passion Video</text>
+</svg>

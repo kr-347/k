@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Krishiv Routhu profile placeholder</title>
+  <desc id="desc">Abstract profile placeholder with initials KR.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe6d8"/>
+      <stop offset="0.52" stop-color="#f8f2ea"/>
+      <stop offset="1" stop-color="#dcd1ff"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a57ff"/>
+      <stop offset="1" stop-color="#ff7d54"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" rx="80" fill="url(#bg)"/>
+  <circle cx="610" cy="170" r="170" fill="#ff7d54" opacity="0.16"/>
+  <circle cx="185" cy="590" r="220" fill="#6a57ff" opacity="0.14"/>
+  <path d="M145 555c72-114 146-171 255-171s183 57 255 171" fill="none" stroke="#131313" stroke-width="38" stroke-linecap="round" opacity="0.82"/>
+  <circle cx="400" cy="285" r="112" fill="none" stroke="#131313" stroke-width="38" opacity="0.82"/>
+  <rect x="236" y="616" width="328" height="94" rx="47" fill="url(#orb)" opacity="0.92"/>
+  <text x="400" y="681" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="900" fill="#fff">KR</text>
+</svg>
